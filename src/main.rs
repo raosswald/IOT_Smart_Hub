@@ -1,15 +1,3 @@
-// #![no_std]
-// #![no_main]
-
-// use wio_terminal as wio;
-// use wio::entry;
-
-// #[entry]
-// fn main() -> ! {
-//     let x = 5;
-//     loop{}
-// }
-
 #![no_std]
 #![no_main]
 
@@ -45,8 +33,3 @@ fn main() -> ! {
         delay.delay_ms(100u16);
     }
 }
-
-// #[panic_handler]
-// fn my_panic(_info: &core::panic::PanicInfo) -> ! {
-//     loop {}
-// }
