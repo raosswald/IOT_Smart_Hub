@@ -8,5 +8,6 @@
 ## Notes
 
 Build code to release and flash with hf2
-`sudo cargo build --release --example=blinky`
+
+
 `sudo cargo hf2 --release --example=blinky --vid 0x2886 --pid 0x002d`
