@@ -42,7 +42,7 @@ fn main() -> ! {
 
     loop {
         user_led.toggle().ok();
-        delay.delay_ms(1000u16);
+        delay.delay_ms(100u16);
     }
 }
 

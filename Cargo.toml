@@ -8,5 +8,3 @@ edition = "2021"
 [dependencies]
 wio_terminal = { git = "https://github.com/atsamd-rs/atsamd" }
 panic-halt = "0.2"
-
-[dev-dependencies]
